@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["http://famysas.netlify.app"],
+    origin: ["https://famysas.netlify.app"],
   },
 });
 
